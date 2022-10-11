@@ -4,8 +4,8 @@ export function HeaderApp() {
    return (
          <Box
          w="100%"
-         h="100vh"
-         p="5"
+         height="100%"
+         minH="100vh"
          bg="gray.700"
       >
          {/* Importar informacoes do github | Alinha o conteudo numa caixa no centro da pagina*/}
@@ -14,7 +14,6 @@ export function HeaderApp() {
             h="100%"
          >
             <Flex
-            mt="50%"
             align="center"
             justify="center"
          >

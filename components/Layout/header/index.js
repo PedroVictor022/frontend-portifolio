@@ -2,6 +2,7 @@ import { Box, Container, Flex, Heading, HStack, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import React from "react";
 import Link from "../../Utils/NextLink";
+import { Navbar } from "../navbar";
 
 function Header() {
    return (
@@ -14,6 +15,7 @@ function Header() {
          </Head>
 
          <Container pt="10">
+            <Navbar/>
             <Box
                bg="red"
                color="whiteAlpha.900"
@@ -30,8 +32,8 @@ function Header() {
                <Box flexGrow={1}
                   color="whiteAlpha.800"
                >
-                  <Heading>My name</Heading>
-                  <Text>Frontend developer - ReactJS | NextJS | Node | Dart</Text>
+                  <Heading>Pedro Victor</Heading>
+                  <Text>Frontend developer - Javascript | ReactJS | NextJS | Node | Dart</Text>
                </Box>
             </Box>
          </Container>

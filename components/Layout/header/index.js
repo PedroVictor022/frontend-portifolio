@@ -1,27 +1,17 @@
 import { Box, Container, Flex, Heading, HStack, Text } from "@chakra-ui/react";
-import Head from "next/head";
 import React from "react";
-import Link from "../../Utils/NextLink";
 import { Navbar } from "../navbar";
 
 function Header() {
    return (
       <React.Fragment>
-         <Head>
-            <meta charset="UTF-8" />
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Pedro Victor - Homepage</title>
-         </Head>
-
          <Container pt="10">
-            <Navbar/>
             <Box
                bg="red"
                color="whiteAlpha.900"
                fontWeight="semibold"
                p={3}
-               mb={6}
+               mb={5}
                align="center"
                borderRadius="lg"
                
@@ -30,9 +20,8 @@ function Header() {
             </Box>
             <Box display={{ md: 'flex' }}>
                <Box flexGrow={1}
-                  color="whiteAlpha.800"
                >
-                  <Heading>Pedro Victor</Heading>
+                  <Heading>Author Name</Heading>
                   <Text>Frontend developer - Javascript | ReactJS | NextJS | Node | Dart</Text>
                </Box>
             </Box>

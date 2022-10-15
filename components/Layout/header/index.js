@@ -21,7 +21,7 @@ function Header() {
             <Box display={{ md: 'flex' }}>
                <Box flexGrow={1}
                >
-                  <Heading>Author Name</Heading>
+                  <Heading>Pedro Victor</Heading>
                   <Text>Frontend developer - Javascript | ReactJS | NextJS | Node | Dart</Text>
                </Box>
             </Box>

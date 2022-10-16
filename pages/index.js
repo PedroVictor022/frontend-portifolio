@@ -5,7 +5,6 @@ import Header from "../components/Layout/header";
 export default function HomeApp() {
   return (
     <Container>
-      
       <Header />
     </Container>
   )

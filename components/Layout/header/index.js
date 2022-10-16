@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Box, Container, Flex, Heading, useColorModeValue, Image, Text } from "@chakra-ui/react";
 import React, { memo, useEffect, useState } from "react";
-import Section from "../section/section";
 
 function Header() {
    const [avatar, setAvatar] = useState();
@@ -22,8 +21,8 @@ function Header() {
       <React.Fragment>
          <Container pt="10">
             <Box
-               bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-               color={useColorModeValue("blackAlpha.800", "glassTeal")}
+               bg={useColorModeValue("red.500", "whiteAlpha.200")}
+               color={useColorModeValue("white", "glassTeal")}
                fontWeight="semibold"
                p={3}
                mb={5}
@@ -46,11 +45,6 @@ function Header() {
                   <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth={{base: '100px', md: '120px'}} display="inline-block" borderRadius="full" src={avatar}/>
                </Box>
             </Box>
-
-            <Section delay={0.1}>
-               <Heading as="h3" variant="section-title"></Heading>
-            </Section>
-
          </Container>
       </React.Fragment>
    )

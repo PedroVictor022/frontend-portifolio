@@ -83,7 +83,7 @@ export default function HomeApp() {
             <Meta>EMAIL</Meta><Link>pedro20002victor@gmail.com</Link> <br />
             <Meta>LINKEDIN</Meta><Link href="https://www.linkedin.com/in/pedro-victor-75440321a/" target="_blank">Pedro Victor</Link> <br />
             <Meta>INSTAGRAM</Meta><Link href="https://www.instagram.com/borgess022/" target="_blank">@borges022</Link><br />
-            <Meta>WHATSAPP</Meta><Link>+55 31 99950-6062</Link>
+            <Meta>WHATSAPP</Meta><Link>+55 31 99508-6062</Link>
           </Box>
         </Section>
       </Container>

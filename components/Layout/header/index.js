@@ -30,7 +30,7 @@ function Header() {
                borderRadius="lg"
 
             >
-               Hello I&apos;m a front-end developer based in Brazil
+               Hello, I&apos;m a front-end developer and this is my Portfolio
             </Box>
             <Box display={{ md: 'flex' }}>
                <Box flexGrow={1}

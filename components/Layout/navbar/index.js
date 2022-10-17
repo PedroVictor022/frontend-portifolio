@@ -69,9 +69,6 @@ export const Navbar = props => {
                >
                   Projects
                </LinkItem>
-               <LinkItem href="/contact" path={path}>
-                  Contact
-               </LinkItem>
             </Stack>
 
             <Box flex={1} align="right">
@@ -94,9 +91,6 @@ export const Navbar = props => {
                         </NextLink>
                         <NextLink href="/projects">
                            <MenuItem>Projects</MenuItem>
-                        </NextLink>
-                        <NextLink href="/contact">
-                           <MenuItem>Contact</MenuItem>
                         </NextLink>
                      </MenuList>
                   </Menu>

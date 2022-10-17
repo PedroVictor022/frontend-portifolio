@@ -7,6 +7,9 @@ import Paragraph from "../components/Layout/paragraph";
 import Section from "../components/Layout/section/section";
 import NextLink from "../components/Utils/NextLink";
 import Layout from "../components/Layout/article";
+import { Meta } from "../components/Utils/TitleLink";
+import { SkillBadge, SkillSection } from "../components/Layout/Skills";
+
 export default function HomeApp() {
   return (
     <Layout>
@@ -20,9 +23,7 @@ export default function HomeApp() {
           <Paragraph>
             Currently attending the 2nd period of Systems Analysis and Development in Pontifical Catholic University of Minas Gerais.
           </Paragraph>
-          <Paragraph>I&apos;m studying more and more so I can get my first job as a web developer. {" "}<NextLink href="/about">
-            <Link>Read More</Link>
-          </NextLink>
+          <Paragraph>I&apos;m studying more and more so I can get my first job as a web developer.
           </Paragraph>
         </Section>
         <Section delay={1.2}>
@@ -38,6 +39,21 @@ export default function HomeApp() {
           </Box>
         </Section>
 
+        <Section delay={1.4}>
+          <Heading as="h3" variant="section-title">Skills</Heading>
+          
+          <SkillSection>
+            <SkillBadge text="HTML" color1="orange" color2="yellow"/>
+            <SkillBadge text="CSS" color1="cyan" color2="blue"/>
+            <SkillBadge text="Javascript" color1="yellow" color2="yellow"/>
+            <SkillBadge text="ReactJS" color1="teal" color2="teal"/>
+            <SkillBadge text="NextJS" color1="pink" color2="purple"/>
+            <SkillBadge text="Typescript" color1="blue" color2="cyan"/>
+            <SkillBadge text="NodeJS" color1="green" color2="green"/>
+            <SkillBadge text="Firebase" color1="orange" color2="orange"/>
+          </SkillSection>
+        </Section>
+
         <Section delay={1.6}>
           <Heading as="h3" variant="section-title">Bio</Heading>
           <BioSection>
@@ -46,7 +62,7 @@ export default function HomeApp() {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            I finished high school and started to program websites with JavaScript, a language I had liked to play with.
+            Finished high school and started to program websites with JavaScript, a language I had liked to play with.
             From there I decided that I would be a WEB developer and that I would have as a plan to become a professional in the area.
           </BioSection>
           <BioSection>
@@ -55,16 +71,19 @@ export default function HomeApp() {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            <strong>To present</strong> - I started my degree in Systems Analysis and Development.
+            Started my degree in Systems Analysis and Development in PUC.
           </BioSection>
         </Section>
 
         <Section delay={2}>
-          <Heading as="h3" variant="section-title">Soft Skills</Heading>
-          <Paragraph>Time management</Paragraph>
-          <Paragraph>Communication</Paragraph>
-          <Paragraph>Adaptability</Paragraph>
-          <Paragraph>Work ethic</Paragraph>
+          <Heading as="h3" variant="section-title">Contact</Heading>
+          <Paragraph>Feel free to contact me for any work or suggestions below </Paragraph>
+          <Box p={4}>
+            <Meta>EMAIL</Meta><Link>pedro20002victor@gmail.com</Link> <br />
+            <Meta>LINKEDIN</Meta><Link href="https://www.linkedin.com/in/pedro-victor-75440321a/" target="_blank">Pedro Victor</Link> <br />
+            <Meta>INSTAGRAM</Meta><Link href="https://www.instagram.com/borgess022/" target="_blank">@borges022</Link><br />
+            <Meta>WHATSAPP</Meta><Link>+55 31 99950-6062</Link>
+          </Box>
         </Section>
       </Container>
     </Layout>

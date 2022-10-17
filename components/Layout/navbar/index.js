@@ -49,7 +49,7 @@ export const Navbar = props => {
                   size="lg"
                   letterSpacing={'tighter'}
                >
-                  Render Logo Here
+                  P{'.'}dev
                </Heading>
             </Flex>
             <Stack

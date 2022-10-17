@@ -29,7 +29,8 @@ export default function HomeApp() {
         <Section delay={1.2}>
           <Heading as="h3" variant="section-title">Projects</Heading>
           <Paragraph>
-            Look at my projects
+            Look at my projects or my 
+            <Link href="https://github.com/PedroVictor022" target="_blank"> Github</Link>
           </Paragraph>
           <Box align="center" my={4}>
             {/* PROJETOS */}

@@ -9,14 +9,6 @@ import Calc from "../assets/calc.png"
 
 import Layout from "../components/Layout/article";
 
-const UsedTech = ({ text, color1, color2 }) => {
-   return (
-      <Badge colorScheme={useColorModeValue(`${color1}`, `${color2}`)} m={2} p={2}>
-         {text}
-      </Badge>
-   )
-}
-
 const Projects = () => {
    return (
       <Layout title="Projects">

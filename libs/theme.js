@@ -15,12 +15,12 @@ const components = {
          'section-title': {
             textDecoration: 'underline',
             fontSize: 20,
-            textUnderlineOffset: 6, 
+            textUnderlineOffset: 6,
             textDecorationColor: '#525252',
             textDecorationThinckness: 4,
             marginTop: 3,
             marginBottom: 4
-         }
+         },
       }
    },
    Link: {
@@ -43,8 +43,8 @@ const config = {
    useSystemColorMode: true
 }
 const theme = extendTheme({
-   config, 
-   styles, 
+   config,
+   styles,
    components,
    colors,
    fonts

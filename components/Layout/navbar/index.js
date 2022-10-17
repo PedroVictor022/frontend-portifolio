@@ -69,8 +69,8 @@ export const Navbar = props => {
                >
                   Projects
                </LinkItem>
-               <LinkItem href="/posts" path={path}>
-                  CV 
+               <LinkItem href="/contact" path={path}>
+                  Contact
                </LinkItem>
             </Stack>
 
@@ -95,8 +95,8 @@ export const Navbar = props => {
                         <NextLink href="/projects">
                            <MenuItem>Projects</MenuItem>
                         </NextLink>
-                        <NextLink href="/view-cv">
-                           <MenuItem>View CV</MenuItem>
+                        <NextLink href="/contact">
+                           <MenuItem>Contact</MenuItem>
                         </NextLink>
                      </MenuList>
                   </Menu>

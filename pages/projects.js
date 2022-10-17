@@ -1,13 +1,15 @@
 import { Container, Heading, SimpleGrid, Badge, useColorModeValue, Link, Text } from "@chakra-ui/react";
 import Section from "../components/Layout/section/section";
-import { WorkGridItem } from "../components/Layout/grid-item"
 
 import Port from "../assets/port.jpg"
 import Todo from "../assets/todo.png"
 import Meme from "../assets/meme.jpg"
 import Calc from "../assets/calc.png"
+import JSONPLACE from "../assets/jsonplace.png"
+import Ecomm from "../assets/ecomm.png"
 
 import Layout from "../components/Layout/article";
+import ProjectImg from "../components/Layout/projectImg";
 
 const Projects = () => {
    return (
@@ -18,25 +20,52 @@ const Projects = () => {
                <Section delay={0.8}>
                   <SimpleGrid columns={[1, 1, 2]} gap={6}>
                      <Section>
-                        <WorkGridItem id="old_portifolio" title="First Portifolio" thumbnail={Port}>
-                           <Text>This is my old Portifolio</Text>
-                           <Text>LINK TO REPO <Link href="https://github.com/PedroVictor022/portifolio">https://github.com/PedroVictor022/portifolio</Link></Text>
-                        </WorkGridItem>
+                        <ProjectImg 
+                           src={Calc}
+                           title="Calculator Online"
+                           repo="https://github.com/PedroVictor022/Calculator-reactjs"
+                        >
+                        </ProjectImg>
                      </Section>
                      <Section>
-                        <WorkGridItem id="todolist" title="Todo App" thumbnail={Todo}>
-                           <Text>LINK TO REPO <Link href="https://github.com/PedroVictor022/todo_list_reactjs">https://github.com/PedroVictor022/todo_list_reactjs</Link></Text>
-                        </WorkGridItem>
+                        <ProjectImg 
+                           src={Port}
+                           title="Old Portifolio"
+                           repo="https://github.com/PedroVictor022/portifolio"
+                        >
+                        </ProjectImg>
                      </Section>
                      <Section>
-                        <WorkGridItem id="MemeMaker" title="MemeMaker" thumbnail={Meme}>
-                           <Text>LINK TO REPO <Link href="https://github.com/PedroVictor022/MemeMaker">https://github.com/PedroVictor022/MemeMaker</Link></Text>
-                        </WorkGridItem>
+                        <ProjectImg 
+                           src={Meme}
+                           title="MemeMaker"
+                           repo="https://github.com/PedroVictor022/MemeMaker"
+                        >
+                        </ProjectImg>
                      </Section>
                      <Section>
-                        <WorkGridItem id="old_portifolio" title="First Portifolio" thumbnail={Calc}>
-                           <Text>LINK TO REPO <Link href="https://github.com/PedroVictor022/Calculator-reactjs">https://github.com/PedroVictor022/Calculator-reactjs</Link></Text>
-                        </WorkGridItem>
+                        <ProjectImg 
+                           src={Todo}
+                           title="Todo List"
+                           repo="https://github.com/PedroVictor022/Calculator-reactjs"
+                        >
+                        </ProjectImg>
+                     </Section>
+                     <Section>
+                        <ProjectImg 
+                           src={JSONPLACE}
+                           title="Todo List"
+                           repo="https://github.com/PedroVictor022/Calculator-reactjs"
+                        >
+                        </ProjectImg>
+                     </Section>
+                     <Section>
+                        <ProjectImg 
+                           src={Ecomm}
+                           title="Ecommerce"
+                           repo="https://github.com/PedroVictor022/E-commerce"
+                        >
+                        </ProjectImg>
                      </Section>
                   </SimpleGrid>
                </Section>

@@ -1,7 +1,7 @@
 import { Box, Container, Flex, Heading, IconButton, Link, Menu, MenuButton, MenuItem, MenuList, Stack, useColorMode, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "../../Utils/NextLink";
 import { HamburgerIcon } from "@chakra-ui/icons"
-import ThemeToggleButton from "../toggle-theme-button";
+import ThemeToggleButton from "../toggleBtn";
 
 
 export const LinkItem = ({ href, path, children }) => {
@@ -59,17 +59,18 @@ export const Navbar = props => {
                width={{ base: 'full', md: 'auto' }}
                flexGrow={1}
                mt={{ base: 4, md: 0 }}
+               gap="1rem"
             >
                <LinkItem href="/" path={path}>
                   Home
                </LinkItem>
                <LinkItem
-                  href="/works" path={path}
+                  href="/projects" path={path}
                >
-                  Works
+                  Projects
                </LinkItem>
                <LinkItem href="/posts" path={path}>
-                  Posts
+                  CV 
                </LinkItem>
             </Stack>
 
@@ -87,17 +88,15 @@ export const Navbar = props => {
                         aria-label="Options"
                      />
                      <MenuList>
+                        {/* Rever esse menu */}
                         <NextLink href="/" passHref> 
                            <MenuItem>Home</MenuItem>
-                        </NextLink>
-                        <NextLink href="/about" passHref>
-                           <MenuItem>About</MenuItem>
                         </NextLink>
                         <NextLink href="/projects">
                            <MenuItem>Projects</MenuItem>
                         </NextLink>
-                        <NextLink href="https://github.com/PedroVictor022/frontend-portifolio" target="_blank">
-                           <MenuItem>View Source Code</MenuItem>
+                        <NextLink href="/view-cv">
+                           <MenuItem>View CV</MenuItem>
                         </NextLink>
                      </MenuList>
                   </Menu>

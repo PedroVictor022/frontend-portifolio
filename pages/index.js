@@ -10,7 +10,9 @@ import NextLink from "../components/Utils/NextLink";
 export default function HomeApp() {
   return (
     <Container>
-      <Header />
+      <Section delay={0.5}>
+        <Header />
+      </Section>
       <Section delay={0.8}>
         <Heading variant="section-title">About</Heading>
         <Paragraph>Hello my name is Pedro Victor, I&apos;m front-end developer</Paragraph>
@@ -22,7 +24,7 @@ export default function HomeApp() {
         </NextLink>
         </Paragraph>
       </Section>
-      <Section delay={5}>
+      <Section delay={1.2}>
         <Heading as="h3" variant="section-title">Projects</Heading>
         <Paragraph>
           Look at my projects
@@ -35,27 +37,26 @@ export default function HomeApp() {
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={1.6}>
         <Heading as="h3" variant="section-title">Bio</Heading>
-
+        <BioSection>
+          <BioYear>2019</BioYear>
+          I started to study programming with Python, I made some programs to solve math and physics formulas.
+        </BioSection>
+        <BioSection>
+          <BioYear>2020</BioYear>
+          I finished high school and started to program websites with JavaScript, a language I had liked to play with.
+          From there I decided that I would be a WEB developer and that I would have as a plan to become a professional in the area.
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          Year I joined the Brazilian army and stayed for eleven months
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          <strong>To present</strong> - I started my degree in Systems Analysis and Development.
+        </BioSection>
       </Section>
-      <BioSection>
-        <BioYear>2019</BioYear>
-        I started to study programming with Python, I made some programs to solve math and physics formulas.
-      </BioSection>
-      <BioSection>
-        <BioYear>2020</BioYear>
-        I finished high school and started to program websites with JavaScript, a language I had liked to play with.
-        From there I decided that I would be a WEB developer and that I would have as a plan to become a professional in the area.
-      </BioSection>
-      <BioSection>
-        <BioYear>2021</BioYear>
-        Year I joined the Brazilian army and stayed for eleven months
-      </BioSection>
-      <BioSection>
-        <BioYear>2022</BioYear>
-        <strong>To present</strong> - I started my degree in Systems Analysis and Development.
-      </BioSection>
     </Container>
   )
 }

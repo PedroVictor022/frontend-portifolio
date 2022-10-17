@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Box, Container, Flex, Heading, useColorModeValue, Image, Text } from "@chakra-ui/react";
-import React, { memo, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Header() {
    const [avatar, setAvatar] = useState();

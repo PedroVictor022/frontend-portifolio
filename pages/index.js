@@ -52,6 +52,7 @@ export default function HomeApp() {
             <SkillBadge text="Typescript" color1="blue" color2="cyan"/>
             <SkillBadge text="NodeJS" color1="green" color2="green"/>
             <SkillBadge text="Firebase" color1="orange" color2="orange"/>
+            <SkillBadge text="Vue" color1="green" color2="green"/>
           </SkillSection>
         </Section>
 

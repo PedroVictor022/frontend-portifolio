@@ -19,7 +19,7 @@ export default function HomeApp() {
         </Section>
         <Section delay={0.8}>
           <Heading variant="section-title">About</Heading>
-          <Paragraph>Hello my name is Pedro Victor, I&apos;m front-end developer</Paragraph>
+          <Paragraph>Hello my name is Pedro Victor, I&apos;m Fullstack developer</Paragraph>
           <Paragraph>
             Currently attending the 2nd period of Systems Analysis and Development in Pontifical Catholic University of Minas Gerais.
           </Paragraph>
@@ -74,6 +74,7 @@ export default function HomeApp() {
           <BioSection>
             <BioYear>2022</BioYear>
             Started my degree in Systems Analysis and Development in PUC.
+            I also started working as a Junior web Developer
           </BioSection>
         </Section>
 
@@ -84,7 +85,8 @@ export default function HomeApp() {
             <Meta>EMAIL</Meta><Link>pedro20002victor@gmail.com</Link> <br />
             <Meta>LINKEDIN</Meta><Link href="https://www.linkedin.com/in/pedro-victor-75440321a/" target="_blank">Pedro Victor</Link> <br />
             <Meta>INSTAGRAM</Meta><Link href="https://www.instagram.com/borgess022/" target="_blank">@borges022</Link><br />
-            <Meta>WHATSAPP</Meta><Link>+55 31 99508-6062</Link>
+            <Meta>WHATSAPP</Meta><Link>+55 31 99508-6062</Link><br/>
+            
           </Box>
         </Section>
       </Container>

@@ -30,13 +30,13 @@ function Header() {
                borderRadius="lg"
 
             >
-               Hello, I&apos;m a front-end developer and this is my Portfolio
+               Hello, I&apos;m a fullstack developer and this is my Portfolio
             </Box>
             <Box display={{ md: 'flex' }}>
                <Box flexGrow={1}
                >
                   <Heading>Pedro Victor</Heading>
-                  <Text>Frontend developer - Javascript | ReactJS | NextJS | Node | Dart</Text>
+                  <Text>Fullstack developer - Javascript | ReactJS | NextJS | Node | Dart</Text>
                </Box>
                <Box
                   flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center"

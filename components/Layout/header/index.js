@@ -36,7 +36,7 @@ function Header() {
                <Box flexGrow={1}
                >
                   <Heading>Pedro Victor</Heading>
-                  <Text>Fullstack developer - Javascript | ReactJS | NextJS | Node | Dart</Text>
+                  <Text>Fullstack developer - Javascript | ReactJS | NextJS | Node | Postgres | MongoDB</Text>
                </Box>
                <Box
                   flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center"
